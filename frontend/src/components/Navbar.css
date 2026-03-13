@@ -1,0 +1,66 @@
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+z-index:10;
+
+backdrop-filter: blur(7px);
+background: rgba(2, 65, 8, 0.25);
+color:white;
+}
+
+
+/* LEFT */
+
+.logo{
+height:45px;
+}
+
+
+/* CENTER AUTH */
+
+.nav-center{
+display:flex;
+gap:15px;
+}
+
+.signin{
+background:transparent;
+border:1px solid white;
+color:white;
+padding:8px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.signup{
+background:#1E88E5;
+border:none;
+color:white;
+padding:8px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* RIGHT NAV */
+
+.nav-right{
+display:flex;
+gap:30px;
+list-style:none;
+font-size:16px;
+}
+
+.nav-right li{
+cursor:pointer;
+transition:0.3s;
+}
+
+.nav-right li:hover{
+color:#1E88E5;
+}
