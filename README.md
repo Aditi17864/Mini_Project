@@ -48,22 +48,6 @@ Water is one of the most valuable resources on Earth.
 
 ---
 
-## 📂 Project Structure
-
-```
-Mini_Project
-│
-├── backend
-│   └── Spring Boot backend services
-│
-├── frontend
-│   └── React web application
-│
-└── README.md
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone the repository
@@ -97,17 +81,6 @@ http://localhost:3000
 ```
 
 ---
-
-## 📊 Future Enhancements
-
-🌟 AI-based water quality prediction
-🌟 IoT sensor integration for real-time data collection
-🌟 Advanced analytics dashboard
-🌟 Government alert and reporting system
-🌟 Mobile application support
-
----
-
 ## 🤝 Contribution
 
 Contributions are welcome!
