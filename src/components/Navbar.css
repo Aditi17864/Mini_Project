@@ -1,0 +1,125 @@
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.nav-left img{
+  height: 55px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.nav-left img:hover {
+  transform: scale(1.05);
+}
+
+.nav-center{
+  display: flex;
+  gap: 45px;
+  list-style: none;
+  color: #2c2c2c;
+  font-weight: 500;
+  font-size: 15px;
+  align-items: center;
+}
+
+.nav-center li {
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+
+.nav-center li:hover {
+  color: #06d6a0;
+}
+
+.nav-center li::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #06d6a0;
+  transition: width 0.3s ease;
+}
+
+.nav-center li:hover::after {
+  width: 100%;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login-btn{
+  background: linear-gradient(135deg, #06d6a0 0%, #13b189 100%);
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(6, 214, 160, 0.3);
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(6, 214, 160, 0.4);
+}
+
+.login-icon {
+  font-size: 18px;
+}
+
+.user-info {
+display: flex;
+align-items: center;
+gap: 15px;
+color: white;
+}
+
+.user-info span {
+font-weight: 500;
+}
+
+.logout-btn {
+background: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.2);
+color: white;
+padding: 8px 16px;
+border-radius: 20px;
+cursor: pointer;
+font-weight: 500;
+transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+background: rgba(255, 255, 255, 0.2);
+border-color: rgba(255, 255, 255, 0.4);
+}
+
+.hero{
+margin-top:70px;
+}

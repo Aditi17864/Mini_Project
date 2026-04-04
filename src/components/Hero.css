@@ -1,0 +1,66 @@
+.hero-container{
+position:relative;
+width:100%;
+height:90vh;
+overflow:hidden;
+}
+
+
+/* VIDEO */
+
+.hero-video{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+
+/* DARK GRADIENT LIKE DY PATIL */
+
+.hero-overlay{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(
+to bottom,
+rgba(0,0,0,0.45),
+rgba(0,0,0,0.1),
+rgba(0,0,0,0.6)
+);
+}
+
+
+/* TEXT */
+
+.hero-content{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+color:white;
+z-index:2;
+}
+
+.hero-content h1{
+font-size:70px;
+font-weight:800;
+}
+
+.hero-content p{
+font-size:24px;
+margin-top:10px;
+}
+
+.hero-container{
+position:relative;
+width:100%;
+height:90vh;
+overflow:hidden;
+margin-top:80px;   /* pushes video below navbar */
+}
